@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/kimpettersen/clipboard/pkg/clipboard"
+	"github.com/kimpettersen/xclip/pkg/clipboard"
 )
 
 func main() {
 	storage := clipboard.InMemStorage{}
-	board := clipboard.New(&storage)
+	board := clipboard.New(&storage, 1000)
 	fmt.Printf("Created board %s", board)
 	// for {
 	// Listen for events
