@@ -1,4 +1,4 @@
-#Experimental X11 Clipboard manager - DO NOT USE
+# Work In Progress - DO NOT USE X11 Clipboard manager
 
 A better clipboard manager for the X Window System. 
 
